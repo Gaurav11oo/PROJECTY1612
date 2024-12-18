@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Create Account</title>
+    
+    <style>
+        body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #343434;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.create-account-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.create-account-box {
+    background-color: #fff;
+    padding: 40px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 400px;
+    text-align: center;
+}
+
+.create-account-box .logo img {
+    width: 130px;
+    margin-bottom: 20px;
+}
+
+.create-account-box h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.input-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #666;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #1a73e8;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button[type="submit"]:hover {
+    background-color: #1665c1;
+}
+
+.footer {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #666;
+}
+
+
+
+    </style>
+</head>
+<body>
+    <div class="create-account-container">
+        <div class="create-account-box">
+            <div class="logo">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg" alt="YouTube Logo">
+            </div>
+            <h2>Create your Youtube Account</h2>
+            <form>
+                <div class="input-group">
+                    <label for="first-name">First name</label>
+                    <input type="text" id="first-name" name="fname"  value="" required>
+                </div>
+                <div class="input-group">
+                    <label for="last-name">Last name</label>
+                    <input type="text" id="last-name"  name="lname"  value=""required>
+                </div>
+                <div class="input-group">
+                    <label for="email">Your email address</label>
+                    <input type="email" id="email" name="email"  value="" required>
+                </div>
+                <div class="input-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="pwd"  value=""required>
+                </div>
+                <div class="input-group">
+                    <label for="confirm-password">Confirm Password</label>
+                    <input type="password" id="confirm-password" name="confirm-pwd"  value=""required>
+                </div>
+                <button type="submit" onclick="document.location='pr1.html'" >Create Account</button>
+            </form>
+            <div class="footer">
+                <p>One account. All of Google working for you.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

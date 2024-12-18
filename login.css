@@ -1,0 +1,138 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #343434;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.login-box {
+  background-color: #fefbfb;
+  padding: 40px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  width: 350px;
+  text-align: center;
+}
+
+.login-box .logo img {
+  width: 130px;
+  margin-bottom: 20px;
+}
+
+.login-box h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.input-group {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #424242;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.actions {
+  text-align: right;
+}
+
+.actions a {
+  font-size: 14px;
+  color: #1a73e8;
+  text-decoration: none;
+}
+
+.actions a:hover {
+  text-decoration: underline;
+}
+
+button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #1a73e8;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #3182d3;
+}
+
+.footer {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #908d8d;
+}
+
+.footer a {
+  color: #1a73e8;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid #ddd;
+  margin: 20px 0;
+}
+
+.create-account {
+  font-size: 16px;
+}
+
+.create-account button {
+  background-color: #1a73e8;
+  border: none;
+  width: 40%;
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.create-account button:hover {
+  background-color: #3182d3;
+}
+
+/* 
+#preloader{
+  background:  url(https://youtu.be/SuT7mY0Hmf0?si=fZKSIS5kSZhHfct5) no-repeat center;
+  background-color:  #fefbfb;;
+  background-size: 5%;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+
+}
+
+
+ */
